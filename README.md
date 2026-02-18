@@ -25,14 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.jpg)
-
-Add a screenshot of your solution when you have one (e.g. take a full-page or cropped screenshot in Firefox, or use a tool like [FireShot](https://getfireshot.com/)). Save it as `screenshot.jpg` or `preview.jpg` and update the path above if needed.
+![](screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://mark-ku-dev.github.io/blog-preview-card/
 
 ## My process
 
@@ -78,7 +75,6 @@ I wanted a small pill-style label that didn’t stretch full width. Using `displ
 
 ### Continued development
 
-- Practicing focus states for accessibility (keyboard navigation).
 - Refining the Flexbox workflow on more card-style layouts.
 - Experimenting with responsive spacing (e.g. relative units) for different screen sizes.
 
