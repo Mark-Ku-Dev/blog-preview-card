@@ -3,7 +3,62 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Figtree", sans-serif;
   background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 370px;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.card_header img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card_about .badge {
+  background-color: hsl(47, 88%, 63%);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.card_about .date {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card_title {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.card_text {
+  color: hsl(0, 0%, 42%);
+}
+
+.card_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_info img {
+  max-width: 30px;
 }
