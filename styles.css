@@ -18,11 +18,11 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 370px;
+  width: 350px;
   border: 1.5px solid black;
   border-radius: 20px;
   gap: 10px;
-  box-shadow: 12px 12px black;
+  box-shadow: 8px 8px black;
 }
 
 .card_header img {
@@ -46,8 +46,13 @@ body {
 }
 
 .card_title {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 800;
+}
+
+.card_title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
 }
 
 .card_text {
